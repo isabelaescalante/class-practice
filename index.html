@@ -1,0 +1,99 @@
+<!-- CSS -->
+<!-- inline style: adentro de otro <> esta style=""
+internal style: en head se pone <style> </style> 
+external style: external .css <head> <link href="path to css file" rel="stylesheet" type="text/css" /> </head> -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			HTML Input Practice
+		</title>
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<header>
+			<h1>
+				Registry form
+			</h1>
+		</header>
+		<nav>
+			<ul class="menu">
+				<li>
+					Home
+				</li>
+				<li>
+					About the site
+				</li>
+				<li class="selected">
+					Registry
+				</li>
+				<li>
+					Contact
+				</li>
+				<li>
+					Copyright
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<form id="form1" class="form1 form2">
+				<fieldset>
+					<legend>
+						New account registry
+					</legend>
+
+					<span>
+						Your information is save with us.
+					</span>
+
+					<div>
+						<p> Complete name: </p>
+						<input type="text" id="textinput" class = "formElement"/>			
+					</div>
+					<div>
+						<p> Email: </p>
+						<input type="email" id="emailinput" class = "formElement"/>				
+					</div>
+					<div>
+						<p>Password: </p>
+						<input type="password" id="passinput" class = "formElement"/>				
+					</div>
+					<div>
+						<p>Password confirmation:</p>
+						<input type="password" id="passconinput" class = "formElement"/>				
+					</div>				
+					<div>
+						<p>Country: </p>
+						<select name="country" id="countryid" >
+							<option value= "default">Select a country...</option>
+							<option value = "us">USA</option>
+							<option value = "mex">Mexico</option>
+							<option value = "can">Canada</option>
+						</select>			
+					</div>
+					<div>
+						<p>Gender: </p>
+					</div>
+					<div>
+						<input type="radio" id="radio1" name="gender" value="M" />
+						Masculine
+					</div>
+					<div>
+						<input type="radio" id="radio2" name="gender" value="F" />
+						Femenine
+					</div>
+					<div>
+						<input type="reset" value="cancel" id="cancelinput" class="button">
+						<input type="submit" value="submit" id="submitinput" class="button">
+					</div>
+				</fieldset>
+			</form>
+		</main>
+		<script type="text/javascript" src="./js/index.js"></script>
+	</body>
+</html>
+
+
+

@@ -1,0 +1,115 @@
+/*selector {
+	//properties of CSS
+	name: value;
+}
+By element name:
+	div {
+		//properties
+	}
+By id:
+	#container {
+		//properties
+	}
+By class:
+	//si en el html hay un div con class="header"
+	.header {
+		//properties
+	}
+*/
+
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 13px;
+	color: #4F545F;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	background-color: #55B3C4;
+	margin: 0;
+	padding: 20px;
+	color: white;
+}
+
+fieldset{
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid #DDDDDD;
+}
+
+legend {
+	font-size: 18px;
+	font-weight: 800;
+}
+
+form span{
+	color:#42579C;
+	border: 1px solid #6278B0;
+	padding: 20px 40px;
+	display: block;
+	background: url('./../img/info.png') no-repeat center left;
+}
+
+.formElement{
+	padding: 5px 10px;
+	width: 300px;
+}
+
+#countryid {
+	width: 250px;
+}
+
+.button {
+	text-align: center;
+	font-size: 16px;
+	margin-right: 20px;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+}
+
+.button:hover{
+	cursor: pointer;
+	opacity: 0.85;
+}
+
+#submitinput {
+	background-color: #56C56F;
+}
+
+#submitinput:hover {
+	background-color: #67BD7A;
+}
+
+#cancelinput {
+	background-color: #D9534F;
+}
+
+#cancelinput:hover {
+	background-color: #D46D6A;
+}
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #CCC;
+	overflow: hidden;
+
+}
+
+.menu > li {
+	float: left;
+	padding: 20px;
+}
+
+.menu > li:hover, .selected{
+	cursor: pointer;
+	color: white;
+	background-color: #999;
+}
+
+
+
+
